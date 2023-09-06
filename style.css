@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .technologies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .technologies .linguagemContent img{
+    width:10px;
+    height:10px;
+}
