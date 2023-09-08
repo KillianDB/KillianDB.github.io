@@ -1,19 +1,65 @@
+body{
+    background-color: black;
+}
+
 header{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
-main{
+header h1{
+    color: antiquewhite;
+}
+
+header a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#up{
+    width: 6px;
+    height: 6px;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aboutMe .textAbout{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: antiquewhite;
+    width: 66%;
+}
+
+.technologies{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-main .technologies{
-    display: flex;
-    flex-wrap: wrap;
+.technologies .linguageContent{
+    width: 30%;
+    height: fit-content;
 }
 
-main .technologies .linguagemContent img{
-    width:10px;
-    height:10px;
+.technologies .linguageContent img{
+    width: 80%;
+    height: 80%;
 }
+
+.technologies .linguageContent h2{
+    color: antiquewhite;
+}
+
+.technologies .linguageContent p{
+    color: antiquewhite;
+}
+
+
+
