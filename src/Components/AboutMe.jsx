@@ -1,5 +1,5 @@
 import './AboutMe.css'
-import ImgHello from '../assets/img/hello-word.gif'
+import GifPlayer from "react-gif-player";
 
 function AboutMe() {
   return(
@@ -13,7 +13,10 @@ function AboutMe() {
   
              I'm continuously seeking new opportunities to expand my knowledge and contribute to innovative projects within the software engineering field."</p> 
             </div>  
-            <ImgHello/> 
+             <GifPlayer 
+              gif="https://media.tenor.com/kjXMU4dl8lAAAAAM/hello-world.gif"
+              autoplay={true}
+            />
          </div>
               </>
   )
